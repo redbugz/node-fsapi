@@ -1,0 +1,25 @@
+{
+  "name": "fsapi",
+  "version": "0.0.1",
+  "description": "Asynchronous FamilySearch client API for node.js.",
+  "keywords": ["familysearch", "oauth"],
+  "homepage": "https://github.com/redbugz/node-fsapi",
+  "author": "redbugz",
+  "licenses": {
+    "type": "MIT",
+    "url": "http://github.com/redbugz/node-fsapi/raw/master/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/redbugz/node-fsapi.git"
+  },
+  "dependencies": {
+    "oauth": ">=0.9.x",
+    "cookies": "0.1.x",
+    "winston": "latest",
+    "request": "latest",
+    "everyauth": "https://github.com/redbugz/everyauth/tarball/master"
+  },
+  "engines": ["node 0.6.x"],
+  "main": "./lib/fsapi"
+}
