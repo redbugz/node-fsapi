@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "pkginfo": ">=0.2.x",
-    "cookies": "0.1.x",
+    "cookies": ">=0.1.x",
     "winston": ">=0.6.x",
     "request": ">=2.9.x",
     "restler": ">=2.0",

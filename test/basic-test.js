@@ -1,3 +1,4 @@
+var buster = require("buster");
 var FSApi = require('../lib/fsapi');
 
 buster.testCase("FSApi module basic tests", {
