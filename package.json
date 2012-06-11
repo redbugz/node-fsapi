@@ -20,7 +20,10 @@
     "request": ">=2.9.x",
     "restler": ">=2.0",
     "everyauth": "https://github.com/redbugz/everyauth/tarball/master",
-    "http-proxy": ">=0.8.1"
+    "http-proxy": ">=0.7.6"
+  },
+  "devDependencies": {
+    "buster": ">=0.5.4"
   },
   "engines": ["node 0.6.x"],
   "main": "./lib/fsapi",
