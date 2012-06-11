@@ -3,6 +3,9 @@ Asynchronous FamilySearch client API for node.js
 
 [fsapi](http://github.com/redbugz/node-fsapi) is a client library for accessing the [FamilySearch](https://familysearch.org) APIs from node.js
 
+
+https://secure.travis-ci.org/redbugz/node-fsapi.png
+
 ## Version 0.0.1
 
 ## Installation
