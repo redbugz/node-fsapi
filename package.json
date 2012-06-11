@@ -14,13 +14,13 @@
     "url": "http://github.com/redbugz/node-fsapi.git"
   },
   "dependencies": {
-    "pkginfo": "latest",
+    "pkginfo": ">=0.2.x",
     "cookies": "0.1.x",
-    "winston": "latest",
-    "request": "latest",
-    "restler": "latest",
+    "winston": ">=0.6.x",
+    "request": ">=2.9.x",
+    "restler": ">=2.0",
     "everyauth": "https://github.com/redbugz/everyauth/tarball/master",
-    "http-proxy": "latest"
+    "http-proxy": ">=0.8.1"
   },
   "engines": ["node 0.6.x"],
   "main": "./lib/fsapi",
