@@ -20,14 +20,17 @@
     "request": ">=2.9.x",
     "restler": ">=2.0",
     "everyauth": "https://github.com/redbugz/everyauth/tarball/master",
+    "passport": "latest",
+    "passport-familysearch": "latest",
     "http-proxy": ">=0.7.6"
   },
   "devDependencies": {
-    "buster": ">=0.5.4"
+    "buster": ">=0.5.4",
+    "nock": ">=0.13.2"
   },
   "engines": ["node 0.6.x"],
   "main": "./lib/fsapi",
   "scripts": {
-      "test": "buster test"
+      "test": "node_modules/.bin/buster-test"
   }
 }

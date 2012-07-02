@@ -1,14 +1,14 @@
 var winston = require('winston');
 var logger = new (winston.Logger)({
-  transports:[
-    new (winston.transports.Console)({ level:'silly', colorize:true })/*,
+  transports: [
+    new (winston.transports.Console)({ level: 'silly', colorize: true })/*,
      new (winston.transports.File)({ filename: 'somefile.log' })*/
   ]
 });
 var fsapi = require('../lib/fsapi')({
-  developerKey:'NNNN-NNNN-NNNN-NNNN-NNNN-NNNN-NNNN-NNNN',
-  userAgent:"node-fsapi-example/0.1.0",
-  referenceHost:"https://sandbox.familysearch.org"
+    developerKey: 'WCQY-7J1Q-GKVV-7DNM-SQ5M-9Q5H-JX3H-CMJK',
+    userAgent: "node-fsapi-example/0.1.0",
+    referenceHost: "https://sandbox.familysearch.org"
 });
 
 logger.silly('start');
