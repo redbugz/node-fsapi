@@ -1,8 +1,8 @@
 {
   "name": "fsapi",
   "version": "0.1.0",
-  "description": "Asynchronous FamilySearch client API for node.js.",
-  "keywords": ["familysearch", "oauth"],
+  "description": "Asynchronous FamilySearch client API for Node.js.",
+  "keywords": ["familysearch", "api", "oauth"],
   "homepage": "https://github.com/redbugz/node-fsapi",
   "author": "redbugz",
   "licenses": {
@@ -16,19 +16,19 @@
   "dependencies": {
     "pkginfo": ">=0.2.x",
     "cookies": ">=0.1.x",
+    "debug": "*",
     "winston": ">=0.6.x",
     "request": ">=2.9.x",
-    "restler": ">=2.0",
-    "everyauth": "https://github.com/redbugz/everyauth/tarball/master",
-    "passport": "latest",
-    "passport-familysearch": "latest",
-    "http-proxy": ">=0.7.6"
+    "passport": "*",
+    "passport-familysearch": "*",
+    "http-proxy": ">=0.7.6",
+    "moment": ">=1.6.2"
   },
   "devDependencies": {
     "buster": ">=0.5.4",
     "nock": ">=0.13.2"
   },
-  "engines": ["node 0.6.x"],
+  "engines": { "node": ">=0.6"},
   "main": "./lib/fsapi",
   "scripts": {
       "test": "node_modules/.bin/buster-test"
